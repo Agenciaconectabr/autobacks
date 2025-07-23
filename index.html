@@ -51,6 +51,10 @@
             width: 100%;
             position: absolute;
         }
+        
+        .fa-star, .fa-star-half-alt {
+            font-size: 0.9rem;
+        }
     </style>
 </head>
 <body class="font-sans bg-blue-50">
@@ -168,12 +172,85 @@
                         <p class="text-gray-600">Embreagem, escapamento, correia dentada, limpeza de bico e diversos outros serviços automotivos.</p>
                     </div>
                 </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16 bg-blue-50 border-t border-b border-blue-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Depoimentos de <span class="text-[#F69338]">Clientes</span></h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-orange-500 text-2xl mr-3">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-800">Edson Domingues</h3>
+                            <div class="text-sm text-gray-500 mb-1">Local Guide · 476 avaliações · 48 fotos</div>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Sempre faço serviços de revisão na autobacks, eles são nota 10.👍"</p>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-orange-500 text-2xl mr-3">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-800">Rogerio Guitar</h3>
+                            <div class="text-sm text-gray-500 mb-1">Local Guide · 125 avaliações · 6 fotos · 5 meses atrás</div>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Cumpre o que promete."</p>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-orange-500 text-2xl mr-3">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-800">Rubens Kaltmaier</h3>
+                            <div class="text-sm text-gray-500 mb-1">Local Guide · 286 avaliações</div>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Atendimento muito bom! Cliente a muitos anos!"</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-16 bg-blue-50">
+    <section id="about" class="py-16 bg-white border-t border-blue-100">
         <div class="container mx-auto px-4">
             <div class="flex flex-col lg:flex-row items-center">
                 <div class="lg:w-1/2 mb-8 lg:mb-0 lg:pr-12">
@@ -316,6 +393,12 @@
             
             <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
                 <p>&copy; <script>document.write(new Date().getFullYear())</script> <span class="text-[#F69338]">AUTOBACKS</span> - Centro Automotivo. Todos os direitos reservados.</p>
+                <p class="mt-2 text-gray-400 flex items-center justify-center gap-2">
+                    <a href="https://linktr.ee/agencia_conecta" target="_blank" class="flex items-center gap-2 hover:text-[#F69338] transition">
+                        <img src="https://i.imgur.com/wW82x9b.png" alt="Agência Conecta" class="h-4"> 
+                        Feito por Agência Conecta
+                    </a>
+                </p>
             </div>
         </div>
     </footer>
@@ -325,13 +408,6 @@
         <i class="fas fa-arrow-up"></i>
     </button>
 
-  <!-- Rodapé da Agência Conecta -->
-  <div style="background-color: #f5f8fa; padding: 15px 0; text-align: center; border-top: 1px solid #ddd;">
-  <a href="https://linktr.ee/agencia_conecta" target="_blank" style="text-decoration: none; color: #744711; font-weight: bold; font-size: 14px; display: inline-flex; align-items: center; gap: 8px;">
-    <img src="https://i.imgur.com/wW82x9b.png" alt="Agência Conecta" style="height: 24px;"> 
-    Feito por Agência Conecta
-  </a>
-</div>
 
   <script>
     // Mobile Menu Toggle
@@ -385,6 +461,5 @@
     });
     
   </script>
-</body>
+<p style="border-radius: 8px; text-align: center; font-size: 12px; color: #fff; margin-top: 16px;position: fixed; left: 8px; bottom: 8px; z-index: 10; background: rgba(0, 0, 0, 0.8); padding: 4px 8px;">Made with <img src="https://enzostvs-deepsite.hf.space/logo.svg" alt="DeepSite Logo" style="width: 16px; height: 16px; vertical-align: middle;display:inline-block;margin-right:3px;filter:brightness(0) invert(1);"><a href="https://enzostvs-deepsite.hf.space" style="color: #fff;text-decoration: underline;" target="_blank" >DeepSite</a> - 🧬 <a href="https://enzostvs-deepsite.hf.space?remix=awdawdawdawd2314/aaaaaa" style="color: #fff;text-decoration: underline;" target="_blank" >Remix</a></p></body>
 </html>
-
